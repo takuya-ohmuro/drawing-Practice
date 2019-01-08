@@ -6,4 +6,11 @@
 //  Copyright © 2019年 大室. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+struct Line {
+    let strokeWidth: Float
+    let color: UIColor
+    var points: [CGPoint]
+}
+
